@@ -9,7 +9,7 @@ Author: Marija Zaric
 ------------------------------------------------------- */
 
 html{
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -81,7 +81,7 @@ h6 {
 
 .text-home-small {
     max-width: 50ch;
-    font-size: 1.9rem;
+    font-size: 2rem;
     line-height: 1.4;
 }
 
@@ -458,7 +458,7 @@ h6 {
 	HOME STYLES
 -----------------------------------------------------*/
 
-.skills-section{
+.skills-section, .education-section{
     margin-bottom: 3rem;
 }
 
