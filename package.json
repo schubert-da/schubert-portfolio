@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass styles/sass/main.scss styles/css/main.css -w"
+  },
+  "author": "schubert-da",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
