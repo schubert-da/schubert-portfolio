@@ -1,0 +1,152 @@
+/* ----------------------------------------------------
+	MASONRY STYLES
+------------------------------------------------------- */
+
+@media (max-width: 1204px) {
+    #photos {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 1000px) {
+    #photos {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 800px) {
+    #photos {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    #photos {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+.vertical-text {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    background: transparent;
+    color: #669999;
+    margin-left: 12rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    float: left;
+    letter-spacing: 0.2rem;
+    font-size: 1.7rem;
+}
+
+.vertical-text-projects {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    background: transparent;
+    color: #669999;
+    margin-left: 12rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    float: left;
+    letter-spacing: 0.2em;
+    font-size: 1.7rem;
+}
+
+.line-symbol {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #DADADA;
+    color: #DADADA;
+    text-align: center;
+    width: 83%;
+    margin: 0 auto;
+    background: transparent;
+    margin-top: 1rem;
+    margin-bottom: 20rem;
+}
+
+.line-symbol:after {
+    content: url(../images/wave.png);
+    display: inline-block;
+    position: relative;
+    top: -1rem;
+    font-size: 1rem;
+    padding: 0 0.25rem;
+    background: white;
+}
+
+.line-symbol1 {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #DADADA;
+    color: #DADADA;
+    text-align: center;
+    width: 83%;
+    margin: 0 auto;
+    background: transparent;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+.line-symbol1:after {
+    content: url(../images/wave.png);
+    display: inline-block;
+    position: relative;
+    top: -1em;
+    font-size: 1em;
+    padding: 0 0.25rem;
+    background: white;
+}
+
+.horizontal-rule {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #DADADA;
+    color: #DADADA;
+    text-align: center;
+    width: 83%;
+    margin: 0 auto;
+    background: transparent;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#client-section {
+    margin-top: 3rem;
+    padding-bottom: 9rem;
+}
+
+.client-heading {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.client-logos {
+    margin-left: 2rem;
+}
