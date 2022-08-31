@@ -216,3 +216,75 @@ figure.effect-julia:hover p {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+
+.skills-section{
+    display: flex;
+    flex-direction: column;
+
+    .section-header{
+        font-size: 3rem;
+        border-bottom: 2px solid #2f3238;
+
+    }
+
+    .skill-group{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #4c4752;
+
+        .skill-group-header{
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            // padding-top: 1rem;
+
+            width: 30%;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .skill-group-name{
+            width: 30%;
+            font-size: 2rem;
+        }
+
+        .skill-group-desc{
+            font-size: 1.8rem;
+            width: 70%;
+        }
+    }
+}
+
+
+// RESPONSIVE - MOBILE
+@media (max-width: 480px){
+    .skills-section{
+    
+        .section-header{
+            font-size: 2.5rem;
+        }
+    
+        .skill-group{
+    
+            .skill-group-header{
+                width: 40%;
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+    
+            .skill-group-name{
+                width: 40%;
+                font-size: 1.6rem;
+            }
+    
+            .skill-group-desc{
+                font-size: 1.4rem;
+                width: 60%;
+            }
+        }
+    }
+      
+}
