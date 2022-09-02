@@ -218,16 +218,16 @@ figure.effect-julia:hover p {
 }
 
 
+.section-header{
+    font-size: 3rem;
+    letter-spacing: -0.5px;
+    border-bottom: 2px solid #2f3238;
+}
+
 .skills-section{
+    margin: 0 15% 0 5%;
     display: flex;
     flex-direction: column;
-
-    .section-header{
-        font-size: 3rem;
-        border-bottom: 2px solid #2f3238;
-
-    }
-
     .skill-group{
         display: flex;
         flex-direction: row;
@@ -237,31 +237,122 @@ figure.effect-julia:hover p {
         border-bottom: 1px dashed #4c4752;
 
         .skill-group-header{
+            align-self: center;
             text-transform: uppercase;
             letter-spacing: -0.5px;
-            // padding-top: 1rem;
 
-            width: 30%;
-            font-size: 2rem;
+            width: 40%;
+            font-size: 2.2rem;
             font-weight: 600;
+            padding-right: 1rem;
         }
 
         .skill-group-name{
-            width: 30%;
+            width: 40%;
             font-size: 2rem;
+            padding-right: 1rem;
         }
 
         .skill-group-desc{
             font-size: 1.8rem;
-            width: 70%;
+            line-height: 1.5;
+            width: 60%;
         }
     }
+}
+
+
+// SECTION - WORKS
+
+.works-section{
+    display: flex;
+    flex-direction: column;
+
+    // height: 30rem;
+    border: 1px solid #4c4752;
+    border-radius: 4px;
+
+    padding: 2rem;
+
+    .works-header-title{
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .works-text{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding-bottom: 2rem;
+
+        .works-text-header{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .works-header-subtitle{
+                margin: auto 0;
+                width: 80%;
+
+                font-size: 1.4rem;
+                line-height: 1.2;
+                
+                justify-self: flex-end;
+            }
+        }
+
+        .works-text-desc{
+            width: 60%;
+            padding-top: 10rem;
+            align-self: flex-end;
+
+            font-size: 1.6rem;
+            line-height: 1.2;
+
+            .work-link{
+                text-align: end;
+                margin-top: 2rem;
+            }
+
+            .work-link:focus{
+                color: #fff;
+            }
+        }
+    }
+
+    .works-images{
+        justify-self: end;
+
+        width: 100%;
+        background-color: orangered;
+
+        display: flex;
+        flex-direction: row;
+
+        .works-image{
+            
+            img{
+                width: auto;
+                height: auto;
+                max-height: 30rem;
+            }
+        }
+
+        .works-image:not(:last-of-type){
+            margin-right: 0.8rem;
+        }
+    }
+
 }
 
 
 // RESPONSIVE - MOBILE
 @media (max-width: 480px){
     .skills-section{
+        margin: 0 2%;
     
         .section-header{
             font-size: 2.5rem;
