@@ -18,13 +18,13 @@ img {
 }
 
 a {
-  color: #669999;
+  text-decoration: underline;
+  color: #111;
   transition: 0.5s;
 }
 
 a:hover {
-  color: #A7CDCC;
-  text-decoration: underline;
+  color: #727272;
 }
 
 p {
@@ -785,7 +785,7 @@ figure.effect-julia:hover p {
 }
 .skills-section .skill-group .skill-group-desc {
   font-size: 1.8rem;
-  line-height: 1.5;
+  line-height: 1.2;
   width: 60%;
 }
 
@@ -807,6 +807,9 @@ figure.effect-julia:hover p {
   border-radius: 4px;
   padding: 2rem;
   margin: 0 15% 0 5%;
+}
+.works-section:not(:last-of-type) {
+  margin-bottom: 2rem;
 }
 .works-section .works-header-title {
   text-transform: uppercase;
@@ -868,7 +871,7 @@ figure.effect-julia:hover p {
   display: flex;
   flex-direction: row;
   background-color: #D49C6B;
-  color: #222;
+  color: #111;
   margin: 0 15% 0 5%;
   padding: 4rem 4rem;
 }
@@ -879,13 +882,20 @@ figure.effect-julia:hover p {
 .footer .contact .contact-desc {
   margin-top: 3rem;
   font-size: 1.8rem;
+  line-height: 1.5;
+}
+.footer .contact .contact-desc a {
+  text-decoration: underline;
 }
 .footer .socials {
   width: 50%;
   margin-top: 5rem;
 }
 .footer .socials .social {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.footer .socials .social.linkedin {
+  margin-bottom: 3rem;
 }
 .footer .socials .social .social-title {
   font-weight: 600;
@@ -895,7 +905,7 @@ figure.effect-julia:hover p {
 .footer .socials .social .social-title img {
   width: 32px;
   height: 32px;
-  margin-right: 0.6rem;
+  margin-right: 1rem;
 }
 .footer .socials .social .social-desc {
   font-size: 1.6rem;

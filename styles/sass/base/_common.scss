@@ -19,15 +19,15 @@ img {
 }
 
 a {
-    color: #669999;
+    text-decoration: underline;
+    color: #111;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
 }
 
 a:hover {
-    color: #A7CDCC;
-    text-decoration: underline;
+    color: #727272;
 }
 
 p {

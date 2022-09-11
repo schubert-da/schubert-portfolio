@@ -257,7 +257,7 @@ figure.effect-julia:hover p {
 
         .skill-group-desc{
             font-size: 1.8rem;
-            line-height: 1.5;
+            line-height: 1.2;
             width: 60%;
         }
     }
@@ -288,6 +288,9 @@ figure.effect-julia:hover p {
 
     padding: 2rem;
     margin: 0 15% 0 5%;
+
+    &:not(:last-of-type){
+        margin-bottom: 2rem;   }
 
     .works-header-title{
         text-transform: uppercase;
@@ -368,7 +371,7 @@ figure.effect-julia:hover p {
     display: flex;
     flex-direction: row;
     background-color: #D49C6B;
-    color: #222;
+    color: #111;
     margin: 0 15% 0 5%;
 
     padding: 4rem 4rem;
@@ -379,7 +382,12 @@ figure.effect-julia:hover p {
         
         .contact-desc{
             margin-top: 3rem;
-            font-size: 1.8rem;   
+            font-size: 1.8rem;
+            line-height: 1.5;   
+
+            a{
+                text-decoration: underline;
+            }
         }
     }
 
@@ -388,7 +396,11 @@ figure.effect-julia:hover p {
         margin-top: 5rem;
     
         .social{
-            margin-bottom: 1.2rem;
+            margin-bottom: 1.5rem;
+
+            &.linkedin{
+                margin-bottom: 3rem;
+            }
             
             .social-title{
                 font-weight: 600;
@@ -398,7 +410,7 @@ figure.effect-julia:hover p {
                 img{
                     width: 32px;
                     height: 32px;
-                    margin-right: 0.6rem;
+                    margin-right: 1rem;
                 }
             }
 
