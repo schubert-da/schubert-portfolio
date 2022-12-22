@@ -806,11 +806,15 @@ figure.effect-julia:hover p {
   border: 1px solid #999;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  padding: 2rem;
+  padding: 2rem 0rem 0rem 0rem;
   margin: 0 15% 0 5%;
 }
+.works-section > div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .works-section:not(:last-of-type) {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .works-section .works-header-title {
   text-transform: uppercase;
@@ -838,7 +842,7 @@ figure.effect-julia:hover p {
 }
 .works-section .works-text .works-text-desc {
   width: 60%;
-  padding-top: 10rem;
+  padding-top: 5rem;
   align-self: flex-end;
   font-size: 1.8rem;
   line-height: 1.2;
@@ -853,6 +857,9 @@ figure.effect-julia:hover p {
 .works-section .works-images {
   justify-self: end;
   width: 100%;
+  background-color: #AEC0B8;
+  border-top: 3.2px solid #939e99;
+  padding: 4rem 2rem 4rem 2rem;
   display: flex;
   flex-direction: row;
 }
