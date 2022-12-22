@@ -803,8 +803,9 @@ figure.effect-julia:hover p {
 .works-section {
   display: flex;
   flex-direction: column;
-  border: 1px solid #4c4752;
+  border: 1px solid #999;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   padding: 2rem;
   margin: 0 15% 0 5%;
 }
@@ -855,10 +856,8 @@ figure.effect-julia:hover p {
   display: flex;
   flex-direction: row;
 }
-.works-section .works-images .works-image {
-  border: 1px solid #eaeaea;
-}
 .works-section .works-images .works-image img {
+  border: 1px solid #999;
   width: auto;
   height: auto;
   max-height: 45rem;
