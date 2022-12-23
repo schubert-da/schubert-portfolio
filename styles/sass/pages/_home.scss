@@ -9,6 +9,7 @@
         width: 100%;
         padding: 10rem 15%;
         background: #AEC0B8;
+        border-bottom: 3.2px solid #939e99;
         border-top: 3.2px solid #939e99;
     }
 }
@@ -385,14 +386,20 @@ figure.effect-julia:hover p {
 
 
 // FOOTER
+.container.footer-container{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
 .footer{
     display: flex;
     flex-direction: row;
-    background-color: #D49C6B;
+    background-color: #AEC0B8;
     color: #111;
-    margin: 0 15% 0 5%;
+    margin: 0;
 
-    padding: 4rem 4rem;
+    padding: 4rem 15%;
 
     .contact{
         width: 50%;
@@ -410,7 +417,7 @@ figure.effect-julia:hover p {
     }
 
     .socials{                               
-        width: 50%;
+        width: 100%;
         margin-top: 5rem;
     
         .social{
@@ -485,7 +492,6 @@ figure.effect-julia:hover p {
 
     // MOBILE SECTION - WORKS
     .works-section{
-        padding: 2rem;
         margin: 0 1%;
     
         .works-header-title{
@@ -522,6 +528,7 @@ figure.effect-julia:hover p {
         .works-images{
             display: flex;
             flex-direction: column;
+            padding: 1rem;
     
             .works-image:not(:last-of-type){
                 margin-bottom: 0.8rem;
